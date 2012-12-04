@@ -1,0 +1,16 @@
+@mixin kon_col{
+	float: left;
+	width: 460px;
+
+
+	}
+
+.kontakt_col_l {
+	@include kon_col;
+	margin:{
+		right: 20px;
+	}
+	}
+.kontakt_col_r{
+	@include kon_col;
+	}

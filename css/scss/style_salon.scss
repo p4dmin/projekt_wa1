@@ -1,0 +1,53 @@
+ #map {
+	height: 388px;
+
+	background:{
+		image: url('../../images/map_of_cz.png');
+		repeat: no-repeat;
+		position: center center;
+		}
+	}
+	
+	a {
+	text-decoration: none;	
+	color: #727272;
+	&:hover{
+	color: #da2156;
+	}	
+
+.flag_title {
+	padding:{top: 0.3em;}
+	
+	}
+}
+#list_salon{
+	padding:{
+	top: 4.5em;
+	}
+	}
+
+.list_col {
+	width: 220px; 
+	margin:{
+		right: 20px;
+	}
+	float:left;
+	}
+	
+.salon_line{
+	display: block; 
+	height: 1px;
+    border: 0; 
+	border-top: 1px solid #cacaca;
+
+    padding: 0;
+	
+}
+
+.flag_point{
+	text-align: center;
+	position: relative;
+	top: 8.5em;
+	left: -6.3em;
+	}
+

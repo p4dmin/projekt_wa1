@@ -1,0 +1,31 @@
+﻿*{
+ margin: 0;  
+    padding: 0;  
+	color: red;
+}
+body {
+ margin: 0 auto;  
+ width: 960px;
+background-color: #f9f9f9;
+text-rendering: optimizeLegibility; 
+}
+@font-face
+{
+	font-family: myf;
+	src: url('fonts/HelveticaNeueLTPro-Lt.otf');
+}
+
+
+.headtitle {
+font-family: myf,sans-serif;
+font-size: 28px;
+}
+
+.menu {
+background : {
+image: url('../images/logo.png');
+}
+}
+
+
+
