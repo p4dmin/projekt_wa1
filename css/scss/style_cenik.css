@@ -1,0 +1,31 @@
+#cenik h3 {
+  text-transform: uppercase;
+  margin-bottom: 0.15em; }
+#cenik .col_left {
+  float: left;
+  width: 460px;
+  margin-right: 20px; }
+#cenik .col_right {
+  float: left;
+  width: 460px; }
+#cenik ul {
+  list-style-type: none;
+  line-height: 1.5em;
+  margin-bottom: 2em; }
+  #cenik ul em {
+    font-style: normal;
+    position: absolute;
+    color: red;
+    right: 0;
+    bottom: -0.2em;
+    padding-left: 0.5em;
+    background: #f9f9f9; }
+  #cenik ul strong {
+    position: relative;
+    font-weight: normal;
+    bottom: -0.2em;
+    background: #f9f9f9;
+    padding-right: 0.5em; }
+  #cenik ul li {
+    position: relative;
+    background: url(../../images/dot.png) repeat-x left bottom; }

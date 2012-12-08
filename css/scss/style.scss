@@ -1,11 +1,15 @@
 ﻿@import url("style_salon.css");
-
+@import url("style_kontakt.css");
+@import url("style_cenik.css"); 
 *{
 	margin: 0;  
     padding: 0;  
 }
+
+$body_color: #f9f9f9;
+
 body {	
-	background-color: #f9f9f9;
+	background-color: $body_color;
 	text-rendering: optimizeLegibility; 
 	font: {
 		family: arial;
@@ -51,6 +55,9 @@ h3 {
 .headtitle {
 	font-family: myf,sans-serif;
 	font-size: 28px;
+	margin:{
+	bottom: 0.6em;
+	}
 }
 
 #nav  {

@@ -1,6 +1,5 @@
 @import url("style_salon.css");
 @import url("style_kontakt.css");
-@import url("style_cenik.css");
 * {
   margin: 0;
   padding: 0; }
@@ -34,8 +33,7 @@ h1 {
 
 .headtitle {
   font-family: myf,sans-serif;
-  font-size: 28px;
-  margin-bottom: 0.6em; }
+  font-size: 28px; }
 
 #nav ul {
   list-style-type: none;
